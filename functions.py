@@ -1,9 +1,10 @@
-def get_name():
-    name = "Alice"
-    return name
-
-def greet():
-    person = get_name()  # Call the function to get the variable
-    print("Hello", person)
-
-greet()
+while(True):
+ username=input("name: ")
+ try:
+  if int(username)==1:
+   print("correct")
+   break
+  else:
+   print("wrong")
+ except:
+  print("password format invalid")
